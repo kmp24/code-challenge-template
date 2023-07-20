@@ -3,7 +3,7 @@
 #### This code ingests all of the txt files in wx_data and places them in an SQLite database for further analysis.
 
 ### Instructions
-### First install requirements:
+Install requirements:
 >   pip install -r requirements.txt
 
 Running main.py runs the following steps:

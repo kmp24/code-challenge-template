@@ -1,9 +1,9 @@
 # Code Challenge Template
 ### Introduction
-### This code ingests all of the txt files in wx_data and places them in an SQLite database for further analysis.
+#### This code ingests all of the txt files in wx_data and places them in an SQLite database for further analysis.
 
-###Instructions
-####First install requirements:
+### Instructions
+### First install requirements:
 >   pip install -r requirements.txt
 
 Running main.py runs the following steps:
@@ -12,7 +12,7 @@ Running main.py runs the following steps:
 >   3. run ingest_data.py, which takes the processed weather data and puts it in the weather_data table.
 >   4. run aggregate_station_data.py, which takes the data from the database and generates mean max/min, total precipitation, for each station and year.
 
->   5. The flask app setup instructions are located in the README here: code-challenge-template-main\src\sandbox
+ The flask app setup instructions are located in the README here: code-challenge-template\src\sandbox
 
-### Description
+### Notes
 All table ORM is contained in data_model.py. Some constants are stored in constants.py for easy modification.
